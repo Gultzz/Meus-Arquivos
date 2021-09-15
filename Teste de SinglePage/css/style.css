@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.pages{
+    position: absolute;
+    color: black;
+    background: #444;
+    height: 100%;
+    width:100%;
+}
+#page2{
+    width: 0px;
+    visibility: hidden;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+}

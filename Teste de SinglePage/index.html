@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Single-Page</title>
+</head>
+<body>
+    <div style="z-index: 0;" id="page1" class="pages">
+        <h1>Oi 1</h1>
+        <button onclick="abrirPage2()">Page 2</button>
+    </div>
+    <div style="z-index: 1;" id="page2" class="pages">
+        <h1>Oi 2</h1>
+        <h1 id="h1"></h1>
+        <!-- <button onclick="mudar()">SLA</button> -->
+        <button onclick="abrirPage1()">Page 1</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

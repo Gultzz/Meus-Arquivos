@@ -1,0 +1,13 @@
+body{
+    background-color: #333;
+}
+#car{
+    position: absolute;
+    background-color: #aaa;
+    width: 100px;
+    height: 40px;
+    left: 20px;
+    top: 50%;
+    margin-top:-50px;
+    border-radius: 50%;
+}
