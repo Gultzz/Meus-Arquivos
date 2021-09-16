@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head id="oii">  
+        <script type="text/JavaScript" src="script.js"></script>
+        <title>Lanches do Gustavo</title>
+        <link rel="icon" href="foto/logo.png">
+        <style id="style">
+            .ae{
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -308px;
+                margin-left: -640px;
+                transform: translate(-50%, -50%);
+            }
+            .be{
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -300px;
+                margin-left: -640px;
+                transform: translate(-50%, -50%);
+            }
+            .ce{
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -293px;
+                margin-left: -640px;
+                transform: translate(-50%, -50%);
+            }
+            .logo{
+                width: 100px;
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -270px;
+                margin-left: 0px;
+                transform: translate(-50%, -50%);
+            }
+            .privacidade{
+                width: 300px;
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 1000px;
+                margin-left: -500px;
+                transform: translate(-50%, -50%);
+            }
+            .final{
+                height: 1px;
+                width: 1px;
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 1020px;
+                margin-left: 0px;
+                transform: translate(-50%, -50%);
+            }
+            .lateral1{
+                opacity: 0;
+                height: 3000px;
+                width: 3000px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 200px;
+                margin-left: -2000px;
+                transform: translate(-50%, -50%);
+            }
+            .card{
+                font-size: 30px;
+                width: 180px;
+                height: 50px;
+                color: black;
+                background-color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .txtcard{
+                font-size: 13px;
+                width: 180px;
+                height: 25px;
+                color: black;
+                background-color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+
+    <body oncontextmenu="return direitoNao()">
+        <img src="foto/lateral.jpg" class="lateral1">
+        <a class="ae" href="" onclick="sumir()">__</a>
+        <a class="be" href="" onclick="sumir()">__</a>
+        <a class="ce" href="" onclick="sumir()">__</a>
+        
+    
+        <center><br><br><br><br><br><br>
+
+            <form method="POST">
+
+                <h1>Para beber</h1>
+        
+                <select class="card" name="cardapio" onchange="aceito2(this)" id="cardapio">
+                    <option value="Coca cola">Coca cola</option>
+                    <option value="Água">Água</option>
+                    <option value="Suco">Suco</option>
+                    <option value="Cerveja">Cerveja</option>
+                    <option value="Vinho">Vinho</option>
+                </select><br>
+        
+                <h1>Para comer</h1>
+        
+                <select class="card" name="cardapioo" onchange="opcaoSelecionada(this)" id="cardapioo">
+                    <option value="X-Burguer">X-Burguer</option>
+                    <option value="X-Salada">X-Salada</option>
+                    <option value="X-Frango">X-Frango</option>
+                    <option value="X-Bacon">X-Bacon</option>
+                    <option value="X-Egg">X-Egg</option>
+                    <option value="X-Tudo">X-Tudo</option>
+                </select><br><br>
+        
+                <input class="txtcard" id="obs" value="" placeholder="OBS: Exemple: Sem tomate " type="text" name="nome" onfocus="focado()"><br><br>
+        
+                <input type="submit" value="Enviar" onmouseup="aceitar()"><br><br><br><br>
+        
+                </form>
+        <a href="index.html"><img class="logo" src="foto/logo.png"></a>
+        <a class="privacidade" href="priva.html">Política de Privacidade</a><br><br><br>
+        <button style="width: 300px; height: 100; color: blue;" onmousedown="downmouse()" onmouseup="upmouse()" onmouseover="passouMouse()" onmouseout="tirouOmouse()" onmousemove="movendoMouse()">Aperte</button>
+        </center>
+        
+        <h6 class="final">.</h6>
+        <style>
+            body{
+                background-position-y: -160px;
+                background-image: url(foto/fundo.jpg);
+                background-attachment: fixed;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-color: rgb(54, 30, 2);
+            }
+            
+        </style>
+    </body>
+</html>

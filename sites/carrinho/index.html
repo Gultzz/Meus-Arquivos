@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/logo.jpg">
+    <title>Gfilm</title>
+</head>
+<body id="body" onclick="gera_cor()">
+    <!--DAQUI ATÉ-->
+
+    <header id="header">
+        <div id="contatos">
+            <nav id="barra_top">
+                <a id="a1" href="sobre.html" target="_self">SOBRE</a>
+                <a id="a2" href="contato.html" target="_self">CONTATO</a>
+                <a id="a3" href="index.html"><img id="logosin" src="image/icon.png" alt="logo-GFilm"></a>
+            </nav>
+        </div>
+    </header>
+
+    <!--AQUI É AS INFOS TOP-->
+    <main>
+        <div>
+            <a href="item1.html"><div id="item1">
+                <img id="image1" src="image/iten1.png">
+                <div id="boo"></div>
+                <h2>Carro</h2>
+                <h5><ul>
+                    <li>Amarelo</li>
+                </ul></h5>
+            </div>
+            </a>
+        </div>
+        <div>
+            <a href="item2.html"><div id="item2">
+                <img id="image2" onmouseover="colocarImagem2('image/item1-2.jpg')" onmouseout="tirarImagem2('image/iten1.png')" src="image/iten1.png">
+                <div id="boo"></div>
+                <h2>Carro2</h2>
+                <h5><ul>
+                    <li>Amarelo</li>
+                </ul></h5>
+            </div>
+            </a>
+        </div>
+        <h1 id="passe1">PASSE O MOUSE SOBRE O ITEM CARRO E SOBRE A IMAGEM DO CARRO</h1>
+        <h1 id="passe2">PASSE O MOUSE SOBRE O ITEM CARRO2 E SOBRE A IMAGEM DO CARRO2</h1>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

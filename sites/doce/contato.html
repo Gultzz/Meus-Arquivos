@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" href="image/icon.png">
+    <title>Site Loja/Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="sim1" href="contato.html">CONTATO</a>
+            <a id="sim3" href="sobre.html">SOBRE</a>
+            <a id="sim2" href="index.html">HOME</a>
+        </nav>
+    </header>
+    <main>
+        <div id="cont">
+            <h1>CONTATOS</h1>
+            <div>
+                <p><img src="image/Skype.png"></p>
+                <h3 id="sk">SKYPE: live:.cid.ff3483a29c7a6398</h3>
+            </div>
+            <div>
+                <h3 id="tel">Telefone: (41)99999-9999</h3>
+                <a href="www.whatsapp.com"><img src="image/whatsapp.png"></a>
+            </div>
+        </div>
+        <form action="mailto:GustavoSchultzgg1@hotmail.com" method="GET">
+            <div id="fullform">
+                <div>
+                    <label for="nome">nome</label><br>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+                </div>
+
+                <div>
+                    <label for="email">e-mail</label><br>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+                </div>
+
+                <div>
+                    <label for="assunto">assunto</label><br>
+                    <input type="text" name="assunto" placeholder="Digite o assunto" required><br><br>
+                </div>
+
+                <div>
+                    <label for="duvidas">escreva a sua questão</label><br>
+                    <textarea type="text" name="duvidas" placeholder="Digite a sua questão" rows="2" cols="21" required></textarea><br><br>
+                </div>
+                <div>
+                    <input id="check" type="checkbox" name="human" required><label for="check">  Sou humano</label><br><br>
+                </div>
+
+                <div>
+                    <input type="submit" name="enviar" value="enviar"/>
+                </div>
+            </div>
+        </form>
+        <!--<iframe src="sobre.html" frameborder="0" scrolling=""></iframe>-->
+    </main>
+</body>
+</html>

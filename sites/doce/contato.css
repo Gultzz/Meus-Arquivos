@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: rgb(146, 87, 64);
+    height: 100%;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 9px;
+    background-color: rgb(170, 107, 90);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(200, 137, 120);
+    border-radius: 10px;
+}
+#sim1{
+    color:white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    transform: translate(-50%, -50%);
+    text-decoration: unset;
+    margin-top: -300px;
+}
+#sim2{
+    color:white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    transform: translate(-50%, -50%);
+    text-decoration: unset;
+    margin-top: -300px;
+    margin-left: -100px;
+}
+#sim3{
+    color:white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    transform: translate(-50%, -50%);
+    text-decoration: unset;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+#sim1:hover, #sim2:hover, #sim3:hover{
+    background-color: rgba(255, 255, 255,0.1);
+    transition: 0.1s;
+    padding: 15px;
+    text-decoration: underline;
+}
+/* --- INICIO CONTATO --- */
+#cont{
+    max-width: 750px;
+    width: 750px;
+    margin-left: -390px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#sk{
+    text-align: center;
+    margin-top: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a img{
+    width: 80px;
+    border-radius: 100px 100px 100px 0;
+    position: absolute;
+    margin-top: -100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p img{
+    width: 80px;
+    border-radius: 20px 40px 20px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 90px;
+}
+h1{
+    text-align: center;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#tel{
+    text-align: center;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* --------------------------------- */
+
+
+#fullform{
+    text-align: center;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fullform input, #fullform textarea{
+    outline: unset;
+    border-radius: 5px;
+    background-color: rgb(200, 137, 120);
+    box-shadow: none;
+    border: 1px solid rgb(146, 87, 64);
+    padding: 5px;
+}
+#fullform input::placeholder, #fullform textarea::placeholder{
+    color: rgb(255, 235, 226);
+}
+#fullform label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#fullform input:focus, #fullform textarea:focus{
+    border: 1px solid rgb(106, 47, 24);
+}
+#fullform input:hover, #fullform textarea:hover{
+    background-color: rgb(170, 107, 90);
+    transition: 0.1s;
+}
+#fullform label{
+    margin-top: 0px;
+}
+/* --- FIM CONTATO --- */

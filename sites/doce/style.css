@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(146, 87, 64);
+    height: 100%;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 9px;
+    background-color: rgb(170, 107, 90);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(200, 137, 120);
+    border-radius: 10px;
+}
+#sim1{
+    color:white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    transform: translate(-50%, -50%);
+    text-decoration: unset;
+    margin-top: -300px;
+}
+#sim2{
+    color:white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    transform: translate(-50%, -50%);
+    text-decoration: unset;
+    margin-top: -300px;
+    margin-left: -100px;
+}
+#sim3{
+    color:white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    transform: translate(-50%, -50%);
+    text-decoration: unset;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+#sim1:hover, #sim2:hover, #sim3:hover{
+    background-color: rgba(255, 255, 255,0.1);
+    transition: 0.1s;
+    padding: 15px;
+    text-decoration: underline;
+}
+/* --- INICIO DO ITEM 1 --- */
+#loja1{
+    border-radius: 10px;
+    text-align: center;
+    max-width: 380px;
+    width: 380px;
+    height: 480px;
+    max-height: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255,0.09);
+    margin-left: -350px;
+    
+}
+#loja1 button{
+    margin-top: 70px;
+    font-size: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 3px solid rgb(82, 46, 30);
+    border-radius: 10px;
+    background-color: rgb(82, 46, 30);
+    color: white;
+    top: 200px;
+}
+#loja1 button:hover{
+    cursor: pointer;
+}
+#loja1 img[src="image/item1.png"]{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#loja1 h1{
+    padding: 10px;
+}
+@media screen and (max-width: 1000px) {
+    #body{
+        margin-left: auto;
+        float: center;
+    }
+    #loja1{
+        margin-top: 40px;
+        margin-left: auto;
+        float: center;
+        width: 300px;
+        height: 400px;
+    }
+    #loja1 button{
+        margin-top: 0px;
+    }
+    
+}
+/* --- FIM DO ITEM 1 --- */
+/* --- INICIO FOOTER --- */
+footer{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255,255,255,0.1);
+    color:white;
+    bottom: -100px;
+    text-decoration: unset;
+}
+footer nav ul li a, footer nav h4 a{
+    color: black;
+    text-decoration: unset;
+}
+footer nav ul[id="ul3"]{
+    width: auto;
+    margin-left: -200px;
+    margin-top: -00px;
+    list-style-type: none;
+}
+footer nav ul[id="ul3"] li a{
+    text-align: center;
+}
+footer nav{
+    padding: 10px;
+    font-size: 17px;
+}
+footer nav ul[id="ul4"]{
+    width: auto;
+    margin-left: 200px;
+    margin-top: -45px;
+    list-style-type: none;
+}
+footer nav ul[id="ul4"] li a{
+    text-align: center;
+}
+#politicadeprivacidade{
+    position: relative;
+    top: 20px;
+}
+/* --- FIM FOOTER ---*/
