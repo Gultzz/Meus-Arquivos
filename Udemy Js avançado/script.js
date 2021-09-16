@@ -93,3 +93,15 @@ if (name2.startsWith('G') && name2.endsWith('o')) {
 // não funciona com array
 // var array2 = ['matheus', 'gustavo', 'lucas', 'joao'];
 // console.log(array2.endsWith('o'));
+
+var array3 = [
+    { nome: "Lucas", idade: 19 },
+    { nome: "Gustavo", idade: 17 },
+    { nome: "Adão", idade: 22 }
+];
+
+var some = array3.some(pessoa => pessoa.nome === 'Gustavo'); //some() Verifica se existe pelo menos um // verifica se existe pelo menos um 'Gustavo'
+console.log(some);
+
+var every = array3.every(pessoa => pessoa.idade >= 18); //some() Verifica se existe pelo menos um // verifica se todos são maiores de 18 anos
+console.log(every);
